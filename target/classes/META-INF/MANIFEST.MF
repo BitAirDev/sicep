@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SICEP Communication API
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Osiris
+Implementation-Vendor-Id: net.bitair.sicep
+Build-Jdk: 1.8.0_181
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
+ starter-parent/SICEP-API/
+Created-By: Maven Integration for Eclipse
+

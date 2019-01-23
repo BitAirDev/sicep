@@ -27,8 +27,8 @@ public class School extends BaseModel{
 	@Column(nullable = false)
 	private String name;
 
-	@ManyToMany(fetch = FetchType.LAZY) //Estudiante va a tenere relacio  Many to Many con escuelas, mapeada por students
-	@Where(clause = "is_active = 1") //Escuela debe estar activa
+	@ManyToMany(fetch = FetchType.LAZY) //Estudiante va a tenere relacion  Many to Many con escuelas, mapeada por students
+	@Where(clause = "is_active = 1") //Escuela debe estar activa	
 	private Set<Student> students;
 	
 	@ManyToMany(fetch = FetchType.LAZY)
